@@ -1,0 +1,45 @@
+;---------------------------
+; Evil Ryu VER. 1.0
+; Author : Chloe
+; From : SNK VS Capcom Chaos
+;---------------------------
+
+;General Information
+[Info] 
+Name         ="Evil Ryu"
+DisplayName  ="Evil Ryu"
+Author       ="Chloe"
+VersionDate  = 11,11,2004
+MugenVersion = 4,14,2001
+Pal.Defaults = 9,6,7,8
+
+;Files for the player
+[Files]
+
+cmd      = eryu.cmd
+cns      = eryu.cns
+stcommon = common1.cns
+st       = eryu.cns
+st1      = eryu-n.cns
+st2      = eryu-s.cns
+st3      = eryu-h.cns
+st4      = eryu-e.cns
+st5      = ai.cns
+sprite   = eryu.sff
+anim     = eryu.air
+sound    = media/eryu.snd
+
+;Palettes
+pal1     = media/eryu1.act
+pal2     = media/eryu2.act
+pal3     = media/eryu3.act
+pal4     = media/eryu4.act
+pal5     = media/eryu5.act
+pal6     = media/eryu6.act
+
+
+
+;Arcade mode
+[Arcade]
+intro.storyboard  = 
+ending.storyboard = 
